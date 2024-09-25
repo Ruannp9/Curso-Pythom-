@@ -12,3 +12,5 @@ elif (cupom=="FUCTURA2"):
     
 else:
     print("Você ganhou 5% de desconto")
+    
+  
