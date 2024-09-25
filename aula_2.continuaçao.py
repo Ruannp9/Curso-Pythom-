@@ -1,12 +1,13 @@
 #entrada de dados
 
-Nome_hotel = input ("insira o nome do hotel")
-Nome_cidade = input ("insira o nome da cidade")
-Quantidade_estrelas = input ("insira a quantidade de estrelas de 1 a 5")
+hotel = input ("insira o nome do hotel")
+estrelas = input ("insira o nome da estrelas")
+cidade = input ("insera a quantidade de cidade")
 
-print("*"*20,"/n" "*"*7, "Ibis" "/n" "*"*7,"*"*4, (f"{Quantidade_estrelas}") "*"*4,  )
-
-
-
+print("*"*20)
+print("*"*7, f"{hotel}", "*"*7)
+print("*"* 4, f"{estrelas} estrelas", "*"*4)
+print("*"* 4, f"{cidade} ", "*"*4)
+print("*"*20)
 
 
