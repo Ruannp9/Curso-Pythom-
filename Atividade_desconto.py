@@ -1,7 +1,5 @@
 
 
-cupom = input ("Digite o cupom:: ")
-
 cupom = input ("Digite o cupom: ")
 
 if (cupom=="FUCTURA1"):
