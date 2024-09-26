@@ -1,3 +1,4 @@
+lista = [] #uma lista vazia
 
 lista = [1,"2", 3] #adicionando itens a uma lista
 # print(type(lista)) #verificando o tipo da lista
