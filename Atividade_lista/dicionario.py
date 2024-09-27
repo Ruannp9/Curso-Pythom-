@@ -60,7 +60,7 @@ print(dic_paulista.popitem()) #ele apaga e retorna o ultimo elemento do dicionar
 print(dic_paulista)
 
 #Mesclar dois dicionários
-dic_pernambuco.update(dic_paulista) #ele junta dois dicionario em um so (ele mescla com a variavel inserida a esquerda)
+dic_pernambuco.update(dic_paulista) #ele junta dois dicionario em um so (ele mescla com a variavel inserida a)
 print(dic_pernambuco)
 
 #Convertendo um dicionario em uma lista
