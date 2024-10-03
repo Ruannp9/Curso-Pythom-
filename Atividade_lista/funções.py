@@ -79,3 +79,43 @@ def exibir_detalhes(**kwargs):
         print(f"{chave}: {valor}")
         
 exibir_detalhes(nome="Carlos", idade=30, cidade="São Paulo")
+
+def soma_pares(numeros):
+    soma = 0
+    i = 0 
+    while i < len(numeros):
+        if numeros[i] % 2 == 0
+            soma += numeros [i]
+            i += 1
+        return soma
+print(soma_pares([1,2,3,4,5,6]))
+
+def obter_detalhes_pedido():
+#simula a obtenção de detalhes de um pedido
+    pedido = {
+        "item": "Notebook",
+        "preco": 1200.00,
+        "quantidade": 2 
+}
+    print("Detalhes do pedido obtidos.")
+    return pedido
+
+def calcular_preco_total (pedido):
+#calcula o preço total do pedido
+    preco_total = pedido['preco'] * pedido['quantidade']
+    print(f"Preço total calculado: R${preco_total}") 
+    return preco_total
+
+def enviar_confirmacao(pedido, preco_total):
+    #simula o envio de uma confirmação de pedido
+    print(f"Confirmação enviada para {pedido['quantidade']} {pedido['item']}(s).")
+    print(f"Valor total a ser pago: R$ {preco_total}")
+    
+def processar_pedido():
+    #Chama as funções auxiliares para processar o pedido
+    pedido = obter_detalhes_pedido()
+    preco_total = calcular_preco_total(pedido)
+    enviar_confirmacao(pedido, preco_total)
+    
+#chamando a função principal
+processar_pedido()
