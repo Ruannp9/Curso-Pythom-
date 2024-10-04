@@ -84,7 +84,7 @@ def soma_pares(numeros):
     soma = 0
     i = 0 
     while i < len(numeros):
-        if numeros[i] % 2 == 0
+        if numeros[i] % 2 == 0:
             soma += numeros [i]
             i += 1
         return soma
@@ -96,9 +96,9 @@ def obter_detalhes_pedido():
         "item": "Notebook",
         "preco": 1200.00,
         "quantidade": 2 
-}
+    }
     print("Detalhes do pedido obtidos.")
-    return pedido
+    return pedido, 
 
 def calcular_preco_total (pedido):
 #calcula o preço total do pedido
@@ -119,3 +119,38 @@ def processar_pedido():
     
 #chamando a função principal
 processar_pedido()
+
+def obter_detalhes_pedido1():
+
+
+    pedido1 =  {
+        "item": "Pc gamer",
+        "preco": 15000.00,
+        "quantidade": 10
+
+}
+    return obter_detalhes_pedido1
+print("Detalhes do pedido1 obtidos.") 
+    
+
+
+def calcular_preco_total (pedido1):
+
+    preco_total = pedido1['preco'] * pedido1['quantidade']
+    print(f"Preço total calculado: R${preco_total}") 
+    return preco_total
+
+def enviar_confirmacao(pedido1, preco_total):
+    #simula o envio de uma confirmação de pedido
+    print(f"Confirmação enviada para {pedido1['quantidade']} {pedido1['item']}(s).")
+    print(f"Valor total a ser pago: R$ {preco_total}")
+    
+def processar_pedido1():
+    #Chama as funções auxiliares para processar o pedido
+    pedido1 = obter_detalhes_pedido1()
+    preco_total = calcular_preco_total(pedido1)
+    enviar_confirmacao(pedido1, preco_total)
+    
+#chamando a função principal
+processar_pedido1()
+
