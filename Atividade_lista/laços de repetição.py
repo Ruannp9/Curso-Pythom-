@@ -1,4 +1,4 @@
-# #Laços de reptições
+#Laços de reptições
 
 # A sintaxe básica de um for em Python é
 
@@ -19,19 +19,19 @@
     
 #     o range (5) gera números de 0 a 4 (o ultimo número não é incluído).
     
-#     Exemplo
+    # Exemplo
     
     
-#     soma = 0
+    soma = 0
     
-#     for i in range(1, 11): #gera uma sequência de 1 a 10
-#         soma += i
+    for i in range(1, 11): #gera uma sequência de 1 a 10
+        soma += i
         
-#         a = 0 
-#         b = 10
-#         print(a)
-#         print("A soma de 1 a 10 é:", soma) #Neste exemplo, o laço for usado para somar os números de 1 a 10
-# print(soma)
+        a = 0 
+        b = 10
+        print(a)
+        print("A soma de 1 a 10 é:", soma) #Neste exemplo, o laço for usado para somar os números de 1 a 10
+print(soma)
     
     
 #     Exemplo

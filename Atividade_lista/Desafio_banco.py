@@ -13,8 +13,18 @@ while True:
     if escolha == "2":
         def verificar_saldo():
             nome_user = input("Digite seu nome: ")
-    if nome_user in informações_clientes:  
-        if informações_clientes[nome_user]["Senha"] == senha_user:    
-    
+            if nome_user in informações_clientes:  
+                    if informações_clientes[nome_user]["Senha"] == senha_user:   
+                        saldo = informações_clientes[nome_user]["Saldo"]
+                    else:
+                        print("Senha incorreta.")
+                        
+                else:
+                    print("Usuário não encontrado.")
+                
+    if escolha == "3":
+        def depositar_dinheiro(nome_usar):
+            valor_deposito = float(input("Digite o valor"))
+            
     
         
