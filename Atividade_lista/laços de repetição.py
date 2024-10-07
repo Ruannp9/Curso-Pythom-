@@ -22,9 +22,9 @@
     # Exemplo
     
     
-    soma = 0
+soma = 0
     
-    for i in range(1, 11): #gera uma sequência de 1 a 10
+for i in range(1, 11): #gera uma sequência de 1 a 10
         soma += i
         
         a = 0 
