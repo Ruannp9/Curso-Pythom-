@@ -40,12 +40,16 @@ Pessoa1.apresentar()
 
 class Data_nascimento:
     def __init__(self, Data):
-        self.DataDeNascimento = Data
+        self.Data = Data
+        
         
     def apresentar (self):
-        print(f"Eu nasci no ano de {Data_nascimento}.")
+        print(f"Eu tenho {self.Data} anos.")
+        print(f"Eu nasci no ano de {2024 - self.Data}.")
         
-DataDeNascimento = Data_nascimento(2007)
-print(DataDeNascimento.Data)
-DataDeNascimento.apresentar
+  
+         
+pessoa = Data_nascimento(31)
+
+pessoa.apresentar()
     
