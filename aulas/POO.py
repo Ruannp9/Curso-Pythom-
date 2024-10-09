@@ -173,6 +173,27 @@ print(pessoa.nome)
 pessoa.nome = ""
 
 #Decoreitory
+
+#Exemplo
+
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.__nome = nome
+        self.__idade = idade
+        
+    def exibir_informacoes(self):
+        print(f"Nome: {self.__nome}, idade: {self.__idade}")
+        
+    def get_nome(self):
+        return self.__nome
+    
+    def get_idade(self):
+        return self.__idade
+        
+pessoa = Pessoa("Alice", 30)
+
+print(pessoa.get_nome(), pessoa.get_idade())
+        
     
 
         
